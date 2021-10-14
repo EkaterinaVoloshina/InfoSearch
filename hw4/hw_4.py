@@ -105,7 +105,6 @@ def find_docs(query, corpus, answers, model='fasttext'):
             query_index = query_indexation(lemmas)
         sim = count_cos(np.expand_dims(query_index, axis=0), corpus)
         ind = np.argsort(sim, axis=0)
-        print(ind.shape)
         return np.array(answers)[ind][::-1].squeeze()
     else:
         return ['В Вашем запросе только цифры, пунктуация или латиница. Попробуйте еще раз!']
