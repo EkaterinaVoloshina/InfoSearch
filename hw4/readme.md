@@ -4,6 +4,6 @@
 
 [**bert_questions.npy**](https://drive.google.com/file/d/1-8wCv-QhTFV__c3EcrM0FGvyWcviJSFK/view?usp=sharing) и [**bert.npy**](https://drive.google.com/file/d/1eN9o7rGksYr9uwNSWCSvSPYs_mX_Bp2i/view?usp=sharing) - векторы, посчитанные в файле *bert.py*.
 
-Первая часть домашнего задания выполнена в файле *hw_4.py**.
+Первая часть домашнего задания выполнена в файле *hw_4.py*.
 
 Вторая часть домашнего задания выполнена в файле *infosearch_metrics.py*.
