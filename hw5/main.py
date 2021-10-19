@@ -45,8 +45,8 @@ def indexation():
     with open('count.pickle', 'rb') as fin:
         count_vectorizer = pickle.load(fin)
     fasttext = KeyedVectors.load('araneum_none_fasttextcbow_300_5_2018.model')
-    model = BertModel.from_pretrained('./rubert-tiny')
-    tokenizer = BertTokenizer.from_pretrained('./rubert-tiny')
+    model = BertModel.from_pretrained('cointegrated/rubert-tiny')
+    tokenizer = BertTokenizer.from_pretrained('cointegrated/rubert-tiny')
     bow_corpus = sparse.load_npz('bow_corpus.npz')
     tfidf_corpus = sparse.load_npz('tfidf_corpus.npz')
     bm_corpus = sparse.load_npz('bm_corpus.npz')
